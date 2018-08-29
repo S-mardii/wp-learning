@@ -18,3 +18,8 @@
 				<?php wp_nav_menu(); ?>
 			</nav>
 		</header>
+
+		<?php
+		if ( is_page('about-us') ) {
+			echo "<h3>This is a page!</h3>";
+		}

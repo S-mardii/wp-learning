@@ -87,3 +87,25 @@ article.post:last-of-type {
     color: #fff;
 }
 /* END Nav Menu */
+
+
+
+/* Page */
+.page-layout h2 {
+	font-size: 200%;
+}
+/* END Page */
+
+/* Custom Page Template */
+.tdcontent {
+    background: #fdf5e1;
+    border: dashed 3px #ffd35e;
+    padding: 10px;
+}
+ 
+.tdtitle {
+    background: #d7fee8;
+    border: dashed 3px #2ecc71;
+    padding: 10px;
+}
+/* END Custom Page Template */
