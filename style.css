@@ -1,4 +1,4 @@
-/*
+
 Theme Name: Twenty Twenty
 Author: Mardy
 Version: 1.0
@@ -82,11 +82,48 @@ article.post:last-of-type {
 }
 
 .navigation-menu ul li.current-menu-item a:link,
-.navigation-menu ul li.current-menu-item a:visited {
+.navigation-menu ul li.current-menu-item a:visited,
+.navigation-menu ul li.current-page-ancestor a:link,
+.navigation-menu ul li.current-page-ancestor a:visited {
     background-color: #4285f4;
     color: #fff;
 }
 /* END Nav Menu */
+
+
+/* Child Menu */
+.child-navigation-menu ul {
+    margin: 20px;
+    padding: 0;
+}
+ 
+.child-navigation-menu ul:before, 
+.navigation-menu ul:after {
+    content: '';
+    display: table;
+}
+ 
+.child-navigation-menu ul li {
+    float: left;
+    list-style: none;
+    margin-right: 3px;
+}
+ 
+.child-navigation-menu ul li {
+    font-size:80%;
+    margin-right: 20px;
+}
+ 
+.child-navigation-menu ul li a:link,
+.child-navigation-menu ul li a:visited {
+    text-decoration: none;
+}
+ 
+.child-navigation-menu ul li.current_page_item a:link,
+.child-navigation-menu ul li.current_page_item a:visited {
+    border-bottom: solid 3px #ecf0f1;
+}
+/* END Child Menu */
 
 
 
@@ -95,6 +132,8 @@ article.post:last-of-type {
 	font-size: 200%;
 }
 /* END Page */
+
+
 
 /* Custom Page Template */
 .tdcontent {
@@ -108,4 +147,4 @@ article.post:last-of-type {
     border: dashed 3px #2ecc71;
     padding: 10px;
 }
-/* END Custom Page Template */
+/* END Custom Page Template 
