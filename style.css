@@ -5,12 +5,13 @@ Version: 1.0
 */
  
 body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
     color: #545454;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
 }
  
-a:link, a:visited {
+a:link, 
+a:visited {
     color: #4285f4;
 }
  
@@ -18,9 +19,9 @@ p {
     line-height: 1.7em;
 }
  
-div.container {
-    max-width: 960px;
+.container {
     margin: 0 auto;
+    max-width: 960px;
 }
  
 article.post {
@@ -39,14 +40,17 @@ article.post:last-of-type {
     border-top: 3px solid #ecf0f1;
 }
 
+
 /* START Nav Menu */
+
 .navigation-menu ul {
     margin: 0;
     padding: 0;
 }
  
-.navigation-menu ul:before, .navigation-menu ul:after {
-    content: "";
+.navigation-menu ul:before, 
+.navigation-menu ul:after {
+    content: '';
     display: table;
 }
  
@@ -59,17 +63,17 @@ article.post:last-of-type {
 }
  
 .navigation-menu ul li {
-    list-style: none;
     float: left;
+    list-style: none;
     margin-right: 3px;
 }
  
 .navigation-menu ul li a:link,
 .navigation-menu ul li a:visited {
-    display: block;
-    padding: 12px 17px;
     border: 2px solid #ecf0f1;
     border-bottom: none;
+    display: block;
+    padding: 12px 17px;
     text-decoration: none;
 }
 
@@ -80,6 +84,6 @@ article.post:last-of-type {
 .navigation-menu ul li.current-menu-item a:link,
 .navigation-menu ul li.current-menu-item a:visited {
     background-color: #4285f4;
-    color: #ffffff;
+    color: #fff;
 }
 /* END Nav Menu */
