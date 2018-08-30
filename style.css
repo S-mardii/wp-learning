@@ -148,3 +148,18 @@ article.post:last-of-type {
     padding: 10px;
 }
 /* END Custom Page Template 
+
+
+/* Post Meta */
+.post-meta {
+    color: #888;
+    font-size: 90%;
+}
+ 
+.post-meta a:link, 
+.post-meta a:visited {
+    color:#888;
+    text-decoration: none;
+}
+
+/* END Post Meta */
