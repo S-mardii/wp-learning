@@ -24,7 +24,8 @@ if ( have_posts() ) {
 				echo trim( $output, $pipe );
 				?>
 			</p>
-			<?php the_content(); ?>
+			<?php echo get_the_excerpt(); ?>
+			<a href="<?php the_permalink(); ?>">Read more &raquo</a>
 		</article>
 <?php
 	}
