@@ -163,3 +163,15 @@ article.post:last-of-type {
 }
 
 /* END Post Meta */
+
+/* Feature Image */
+.small-thumbnail {
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+ 
+.single-post-image {
+    float: left;
+    margin: 0px 12px 12px 0px;
+}
+/* END Feature Image */
