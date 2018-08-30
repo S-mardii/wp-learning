@@ -1,0 +1,22 @@
+WP-9:
+
+WP-8: Feature Image [https://vegibit.com/add-featured-image-support-to-your-wordpress-theme/]
+---------------------------
+
+// Enable Feature Image:
+add_theme_support('post-thumbnail')
+
+// Trigger WP action "after_setup_theme":
+add_action('after_setup_theme', '#name_of_function_to_trigger')
+
+// Get original Feature Image:
+the_post_thumbnail()
+
+// Get filter Feature Image
+the_post_thumbnail(#name_of_image_mode)
+
+// Register various image size for Feature Image:
+add_image_size(#name, #width, #height, #crop)
+
+// Check if a post has Feature Image
+has_post_thumbnail()

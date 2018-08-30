@@ -6,6 +6,12 @@ if ( have_posts() ) {
 		the_post();
 ?>
 		<article class="post">
+			<?php if ( has_post_thumbnail() ) { ?>
+				<div class="single-post-image">
+					<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('single-post-image'); ?></a>
+				</div>
+			<?php } ?>
+
 			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			<p class="post-meta">
 				<?php the_time( 'F jS, Y' ); ?> | 
