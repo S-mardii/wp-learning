@@ -203,7 +203,7 @@ article.post:last-of-type {
 /* END Search */
 
 
-/* Post Template */
+/* Post Format */
 .post-aside {
     background-color: #fdffdc;
     border-radius: 10px;
@@ -224,4 +224,20 @@ article.post:last-of-type {
     padding: 25px;
     text-align: center;
 }
-/* END Post Template */
+/* END Post Format */
+
+/* Widget */
+.main-column {
+    float: left;
+    width: 70%;
+}
+ 
+.sidebar-column {
+    float: right;
+    width: 30%;
+}
+ 
+.main-content {
+    overflow: auto;
+}
+/* END Widget */

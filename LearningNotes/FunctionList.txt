@@ -1,3 +1,14 @@
+WP-11: Widget [https://vegibit.com/wordpress-widgets-tutorial/]
+---------------------------
+// Call widget to display on Frontend
+dynamic_sidebar()
+
+// Register sidebar
+register_sidebar()
+
+// Check if the widget is activated
+is_active_sidebar()
+
 WP:10: Post Format [https://vegibit.com/wordpress-post-formats/]
 ---------------------------
 // Enable Post Format Support
