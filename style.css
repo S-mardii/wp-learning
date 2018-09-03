@@ -201,3 +201,27 @@ article.post:last-of-type {
 }
 
 /* END Search */
+
+
+/* Post Template */
+.post-aside {
+    background-color: #fdffdc;
+    border-radius: 10px;
+    font-size: 130%;
+    padding: 25px;
+}
+
+.post-link {
+    font-size: 160%;
+    background-color: #d1ecff;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.post-gallery {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 25px;
+    text-align: center;
+}
+/* END Post Template */

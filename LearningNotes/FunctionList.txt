@@ -1,3 +1,9 @@
+WP:10: Post Format [https://vegibit.com/wordpress-post-formats/]
+---------------------------
+// Enable Post Format Support
+add_theme_support()
+
+
 WP-9: Search Function [https://vegibit.com/how-to-add-search-to-a-wordpress-theme/]
 ---------------------------
 // Get Search Box
@@ -16,6 +22,8 @@ the_search_queury()
 
 // Import common Template parts across pages
 get_template_part()
+
+
 
 WP-8: Feature Image [https://vegibit.com/add-featured-image-support-to-your-wordpress-theme/]
 ---------------------------
