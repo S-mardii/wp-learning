@@ -1,3 +1,11 @@
+WP-12: WP_Query [https://vegibit.com/how-to-use-wp_query-in-wordpress/]
+---------------------------
+new WP_Query()
+
+// Restore the global $post after overwritten by WP_Query()
+wp_reset_postdata()
+
+
 WP-11: Widget [https://vegibit.com/wordpress-widgets-tutorial/]
 ---------------------------
 // Call widget to display on Frontend
