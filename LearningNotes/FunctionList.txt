@@ -17,8 +17,6 @@ the_search_queury()
 // Import common Template parts across pages
 get_template_part()
 
-
-
 WP-8: Feature Image [https://vegibit.com/add-featured-image-support-to-your-wordpress-theme/]
 ---------------------------
 // Enable Feature Image:
