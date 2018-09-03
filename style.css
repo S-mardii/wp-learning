@@ -241,3 +241,19 @@ article.post:last-of-type {
     overflow: auto;
 }
 /* END Widget */
+
+/* Homepage */
+.home-columns {
+    overflow: auto;
+}
+ 
+.home-left {
+    float: left;
+    width: 45%;
+}
+ 
+.home-right {
+    float: right;
+    width: 45%;
+}
+/* END Homepage */
