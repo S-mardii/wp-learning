@@ -10,6 +10,10 @@
 <body class="<?php body_class(); ?>">
 	<div class="container">
 		<header class="site-header">
+			<div class="header-search">
+				<?php get_search_form() ?>
+			</div>
+
 			<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
 			<h4><?php bloginfo('description'); ?></h4>
 
