@@ -47,3 +47,20 @@ function add_featured_image_support_to_your_wordpress_theme() {
 	] );
 }
 add_action( 'after_setup_theme', 'add_featured_image_support_to_your_wordpress_theme' );
+
+function initialize_widgets() {
+	register_sidebar( [
+		'name'          => 'Right Sidebar',
+		'id'            => 'rightsidebar',
+		'before_widget' => '<div class="widget-item"',
+		'after_widget' 	=> '</div>',
+	] );
+
+	register_sidebar( [
+		'name'          => 'Footer',
+		'id'            => 'footer',
+		'before_widget' => '<div class="widget-item"',
+		'after_widget' 	=> '</div>',
+	] );
+}
+add_action( 'widgets_init', 'initialize_widgets' );
